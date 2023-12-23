@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 class MyClipper extends CustomClipper<Path> {
   @override
-  /*
-  Note :
-   LineTo()
-   this method create a shright line from point to point
-  * */
+
 
   Path getClip(Size size) {
     Path path = Path();
